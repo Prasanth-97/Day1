@@ -1,0 +1,17 @@
+
+Difference between http1.1 and http 2 ?
+
+http1.1
+
+   * It is used to process text commands to complete request reponse cycles.
+   * It loads resources one after the other,if one resource cannot be loaded,it blocks all the other resources
+     behind it.
+   * In HTTP/1.1 headers in every request are sent uncompressed on the network.
+   * It loads a single request for every TCP connection
+
+http2
+    * It uses binary commands to complete request response cycles.
+    *  HTTP2 is fully multiplexed, instead of ordered and blocking
+    *  HTTP2 can, therefore, use one connection for parallelism
+    *  HTTP2 uses header compression to reduce overhead
+    *  HTTP2 allows servers to “push” responses proactively into client caches    

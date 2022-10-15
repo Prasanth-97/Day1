@@ -1,0 +1,30 @@
+
+Write a blog about objects and its internal representation in Javascript?
+
+*An object is a non-primitive, structured data type in JavaScript. Objects are same as variables in JavaScript,
+ the only difference is that an object holds multiple values in terms of properties and methods.
+
+* Creating Objects in JavaScript:
+    1) By object literal
+    2) By creating instance of Object directly (using new keyword)
+
+* By object literal
+
+     syntax :
+
+      object = {property1:value1,property2:value2} 
+
+      Property and value is separated by colon(:).
+
+ *  By creating instance of Object directly (using new keyword)     
+      
+      example:
+
+      var myCar = new Object();
+      myCar.make = 'Ford';
+      myCar.model = 'Mustang';
+      myCar.year = 1969;
+
+ * To accsess javascript objects
+ 
+     objectName.property or objectName[“property”]     
